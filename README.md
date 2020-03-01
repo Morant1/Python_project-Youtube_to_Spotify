@@ -20,6 +20,21 @@ spotipy
 - [x] Save your Client Secret and Client ID (you'll find them in the app panel).
 - [x] Collect your Username by Log into Spotify and then go here: [Account Overview](https://www.spotify.com/us/account/overview/) and its your Username.
 - [x] run the authurization part in the code with the variables you just collected.
+```username = ''
+client_id = ''
+client_secret = ''
+redirect_uri = 'http://localhost:8888/callback/'
+scope = 'playlist-modify-private'
+
+def init_spotify_client():
+        print('Initialising Spotify Client....')
+        token = util.prompt_for_user_token(username, scope,
+                                           client_id=client_id,
+                                           client_secret=client_secret,
+                                           redirect_uri=redirect_uri)
+        client_token = spotipy.Spotify(auth=token)
+        print('\nClient initialised!\n')
+        return client_token```
 - [x] Once your run the code,it will open an authorization panle in your web browser. Follow the link,log in  and you should see something like this:
 ![alt text](username.png)
 Please click on agree to authorize your app
