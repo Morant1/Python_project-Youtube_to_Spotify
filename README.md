@@ -7,7 +7,6 @@ Enter a Youtube music video URL  link and find the song on your spotify in a new
 json
 requests
 youtube_dl
-spotipy.util
 spotipy
 ```
 
