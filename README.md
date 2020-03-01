@@ -19,6 +19,7 @@ spotipy
 - [x] Go to your new developer dashboard and click on "Create an App" (write the details as you desire).
 - [x] Save your Client Secret and Client ID (you'll find them in the app panel).
 - [x] Collect your Username by Log into Spotify and then go here: [Account Overview](https://www.spotify.com/us/account/overview/) and its your Username.
+![alt text](username.png)
 - [x] run the authurization part in the code with the variables you just collected.
 ```
 username = ''
@@ -38,9 +39,7 @@ def init_spotify_client():
         return client_token
 ```
         
-- [x] Once your run the code,it will open an authorization panle in your web browser. Follow the link,log in  and you should see something like this:
-![alt text](username.png)
-Please click on agree to authorize your app
+- [x] Once your run the code,it will open an authorization panle in your web browser. Follow the link,log in and click on **agree** to authorize your app
 - [x] the next step will take your to redirect URI whitch may be a nonexistent page.
 - [x] Get your token [here](https://developer.spotify.com/console/post-playlist-tracks/?playlist_id=&position=&uris=):
 Click 'get token' and then select your scopes : "playlist-modify-private" and "playlist-read-private" and  request the token
