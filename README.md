@@ -16,7 +16,7 @@ spotipy
 (in general, we need to create an app that will access the Spotify API once it gets permission from the user)
 
 - [x]  log in and register a Spotify app [here](https://developer.spotify.com/dashboard/login)
-- [x] Go to your new developer dashboard and just click on "Create an App" (don't worry about the details).
+- [x] Go to your new developer dashboard and click on "Create an App" (write the details as you desired).
 - [x] Save your Client Secret and Client ID (you'll find them in the app panel).
 - [x] Collect your Username by Log into Spotify and then go here: [Account Overview](https://www.spotify.com/us/account/overview/) and its your Username.
 - [x] run the authurization part in the code with the variables you just collected.
