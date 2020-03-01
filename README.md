@@ -31,5 +31,9 @@ Click 'get token' and then select your scopes : "playlist-modify-private" and "p
 - [x] **it's a wrap! you have everything you need to run the code.**
 
 
+## final result on my app:
+![alt text](Final_result.jpg)
+
+
 
 
