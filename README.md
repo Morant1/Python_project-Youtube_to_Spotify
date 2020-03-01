@@ -32,7 +32,7 @@ Click 'get token' and then select your scopes : "playlist-modify-private" and "p
 
 
 ## final result on my app: 
-# Hebrew version
+#### Hebrew version
 ![alt text](Finalresult.jpg)
 
 
