@@ -20,11 +20,11 @@ spotipy
 - [x] Save your Client Secret and Client ID (you'll find them in the app panel).
 - [x] Collect your Username by Log into Spotify and then go here: [Account Overview](https://www.spotify.com/us/account/overview/) and its your Username.
 ![alt text](username.png)
-- [x] run the authurization part in the code with the variables you just collected.
+- [x] Run the authurization part in the code with the variables you just collected.
 ```
-username = ''
-client_id = ''
-client_secret = ''
+username = 'insert here'
+client_id = 'insert here'
+client_secret = 'insert here'
 redirect_uri = 'http://localhost:8888/callback/'
 scope = 'playlist-modify-private'
 
@@ -39,10 +39,10 @@ def init_spotify_client():
         return client_token
 ```
         
-- [x] Once your run the code,it will open an authorization panle in your web browser. Follow the link,log in and click on **agree** to authorize your app
-- [x] the next step will take your to redirect URI whitch may be a nonexistent page.
+- [x] Once you run the code,it will open an authorization panel in your web browser. Follow the link,log in and click on **agree** to authorize your app.
+- [x] The next step will take you to redirect URI which may be a nonexistent page (so don't worry...)
 - [x] Get your token [here](https://developer.spotify.com/console/post-playlist-tracks/?playlist_id=&position=&uris=):
-Click 'get token' and then select your scopes : "playlist-modify-private" and "playlist-read-private" and  request the token
+Click 'get token' and then select your scopes : "playlist-modify-private" and "playlist-read-private" and  request the token.
 
 - [x] **it's a wrap! you have everything you need to run the code.**
 
