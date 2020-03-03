@@ -35,9 +35,7 @@ def init_spotify_client():
                                            client_id=client_id,
                                            client_secret=client_secret,
                                            redirect_uri=redirect_uri)
-        client_token = spotipy.Spotify(auth=token)
-        print('\nClient initialised!\n')
-        return client_token
+
 ```
         
 - [x] Once you run the code,it will open an authorization panel in your web browser. Follow the link,log in and click on **agree** to authorize your app.
