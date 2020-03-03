@@ -4,7 +4,7 @@ from youtube_dl import YoutubeDL
 import spotipy.util as util
 import spotipy
 
-#for authorization:
+#For authorization:
 """
 username = ''
 client_id = ''
@@ -18,10 +18,8 @@ def init_spotify_client():
                                            client_id=client_id,
                                            client_secret=client_secret,
                                            redirect_uri=redirect_uri)
-        client_token = spotipy.Spotify(auth=token)
-        print('\nClient initialised!\n')
-        return client_token
 
+init_spotify_client()
 """
 
 
