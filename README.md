@@ -41,7 +41,7 @@ def init_spotify_client():
 ```
         
 - [x] Once you run the code,it will open an authorization panel in your web browser. Follow the link,log in and click on **agree** to authorize your app.
-- [x] The next step will take you to redirect URI which may be a nonexistent page (so don't worry...)
+- [x] Copy the URI in your console as required - the next step will take you to redirect URI which may be a nonexistent page (so don't worry...)
 - [x] Get your token [here](https://developer.spotify.com/console/post-playlist-tracks/?playlist_id=&position=&uris=):
 Click 'get token' and then select your scopes : "playlist-modify-private" and "playlist-read-private" and  request the token.
 
