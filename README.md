@@ -21,7 +21,7 @@ spotipy
 - [x] Save your Client Secret and Client ID (you'll find them in the app panel).
 - [x] Collect your Username by Log into Spotify and then go here: [Account Overview](https://www.spotify.com/us/account/overview/) and its your Username.
 ![alt text](username.png)
-- [x] Run the authurization part in the code with the variables you just collected.
+- [x] Run the authorization part in the code with the variables you just collected.
 ```
 username = 'insert here'
 client_id = 'insert here'
