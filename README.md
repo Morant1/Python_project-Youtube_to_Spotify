@@ -10,7 +10,7 @@ youtube_dl
 spotipy
 ```
 
-#you can read the Authorization Guide of spotify [here](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
+#you can read the Authorization Guide of Spotify [here](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
 
 2. Please follow my steps to get permission to access the Spotify API:
 (in general, we need to create an app that will access the Spotify API once it gets permission from the user)
