@@ -1,5 +1,5 @@
 ## Python_project-YoutubetoSpotify-
-Enter a Youtube music video URL  link and find the song on your spotify in a new playlist!
+Enter a Youtube music video URL  link and find the song on your Spotify in a new playlist!
 
 **Prior requirements**:
 1. Install All Dependencies - 
