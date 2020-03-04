@@ -20,7 +20,7 @@ spotipy
 - [x] Go to 'Edit settings', insert and save the following Redirect URI:'http://localhost:8888/callback/'
 - [x] Save your Client Secret and Client ID (you'll find them in the app panel).
 - [x] Collect your Username by Log into Spotify and then go here: [Account Overview](https://www.spotify.com/us/account/overview/) and its your Username.
-![alt text](username.png)
+![alt text](_images_/username.png)
 - [x] Run the authorization part in the code with the variables you just collected.
 ```
 username = 'insert here'
@@ -50,7 +50,7 @@ Click 'get token' and then select your scopes : "playlist-modify-private" and "p
 
 ## final result on my app: 
 #### Hebrew version
-![alt text](Finalresult.jpg)
+![alt text](_images_/Finalresult.jpg)
 
 
 
