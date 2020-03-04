@@ -86,7 +86,7 @@ class From_Youtube_to_spotipy:
 
 
     def search_song(self):
-          #let's search for the song
+          #Let's search for the song
           list_info = self.info()
           query = "https://api.spotify.com/v1/search?query=track%3A{}+artist%3A{}&type=track&offset=0&limit=20".format(
                 list_info[0],
